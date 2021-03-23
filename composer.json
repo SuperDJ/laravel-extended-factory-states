@@ -1,0 +1,39 @@
+{
+    "name": "superdj/laravel-extended-factory-states",
+    "description": "Prevent errors in your factories",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SuperDJ",
+            "email": "super.derkjan@gmail.com",
+            "homepage": "https://github.com/SuperDJ"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "illuminate/database": "^8.0"
+    },
+    "suggest": {
+        "laravel/framework": "^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "SuperDJ\\LaravelExtendedFactoryStates\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SuperDJ\\LaravelExtendedFactoryStates\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
